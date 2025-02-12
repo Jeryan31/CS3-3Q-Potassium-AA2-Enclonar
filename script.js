@@ -1,4 +1,5 @@
-function exponentialPopulationGrowth(){
+function exponentialPopulationGrowth() {
+    
     let intialPop = parseFloat( prompt('Enter a number for initial population: '));
     let rateGrowth = parseFloat( prompt('Enter a number for rate of growth: '));
     let timeHours = parseFloat( prompt('Enter a number for time of hours: '));
@@ -10,8 +11,5 @@ function exponentialPopulationGrowth(){
     
     let nameAndLoc = location.concat(" ", monsterName).toUpperCase();
     
-    document.getElementById("result").innerHTML="After " + timeHours + " hour/s, the population of " + nameAndLoc + " has risen to " + finalPop;
-
-    
-    
-    }
+    document.getElementById("result").innerHTML="After " + timeHours + " hour/s, the population of " + nameAndLoc + " has risen to " + finalPop; 
+}
