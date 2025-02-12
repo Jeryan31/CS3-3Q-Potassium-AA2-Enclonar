@@ -1,8 +1,8 @@
 function exponentialPopulationGrowth() {
     
-    let intialPop = parseFloat( prompt('Enter a number for initial population: '));
-    let rateGrowth = parseFloat( prompt('Enter a number for rate of growth: '));
-    let timeHours = parseFloat( prompt('Enter a number for time of hours: '));
+    let intialPop = parseFloat( prompt('Enter the initial population: '));
+    let rateGrowth = parseFloat( prompt('Enter the rate of growth: '));
+    let timeHours = parseFloat( prompt('Enter the time in hours: '));
     
     let finalPop = Math.round(intialPop*Math.pow(Math.E, (rateGrowth*timeHours)));
     
