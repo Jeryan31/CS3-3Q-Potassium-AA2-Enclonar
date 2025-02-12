@@ -11,5 +11,5 @@ function exponentialPopulationGrowth() {
     
     let nameAndLoc = location.concat(" ", monsterName).toUpperCase();
     
-    document.getElementById("result").innerHTML="After " + timeHours + " hour/s, the population of " + nameAndLoc + " has risen to " + finalPop; 
+    document.getElementById("result").innerHTML="After " + timeHours + " hour/s, the population of " + nameAndLoc + " has risen to " + finalPop + "."; 
 }
